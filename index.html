@@ -4,123 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon's Personal Site</title>
+    <title>Brandon Coen</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" href="gallery/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Quicksand&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
-<style>
-    body {
-        background: slategrey;
-        color: black;
-    }
-    a{
-        color: blue;
-        
-    }
-    a:hover {
-        color: lightgreen;
-    }
-    
-  
-</style>
+
 <body>
-    <h1></h1>
-    <hr>
-    <table cellspacing="20">
-        <tr>
-            <td><img class="'fit picture " src="Gallery/me.jpg" heigh = "200" width = "200"> </td>
-            <td><h1>Brandon Coen</h1>
-            <p><em>Aspiring <strong>Web Developer</strong></em></p>
-    <p>Since a young age, I've sought jobs that would challenge me and provide a sense of accomplishment. 
-    During my time as a Marine and US Army soldier, I thrived under pressure and developed problem-solving skills while working as part of a team. 
-    Having completed my service, I'm now eager to take on my next challenge in the tech industry.
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BC Designs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Price</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-    With 7 years of combined service in the US Marine Corps and Army, I've developed a strong passion for leadership, mentorship, and problem-solving. 
-    My background in military communications as a Radio Operator fueled my interest in technology and its endless possibilities.
 
-    The Washington Vet to Tech program was a turning point for me, as it opened my eyes to the exciting world of coding. 
-    I was immediately drawn to the challenge and complexity of programming, staying up late and tackling problem after problem. Today, I am a veteran eager to start a career as a Web Developer or Designer.
-
-    My military background has instilled in me core values of high integrity, self-reliance, critical thinking, professionalism, and leadership. 
-    I am confident that I can bring these qualities to any organization and make a positive impact. I am passionate about working with a team and thrive in both team and individual settings. 
-    I am eager to join a company that values my unique experiences and abilities. Some place that I can call home.</p></td>    
-        </tr>
-    </table>
+    <div class="top-container">
     
-<hr>
-<h3><u>Education</u></h3>
-<table cellspacing="10">
-    <thead>
-     <tr>
-        <th>Dates</th>
-        <th>School</th>
-     </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>2023</td>
-        <td><a href="https://www.stmartin.edu/">Saint Martins</a></td>
-    </tr>
+        <img src="gallery/cloud.png" class="top-cloud">
     
-    <tr>
-        <td>2016-2018</td>
-        <td><a href="https://www.pierce.ctc.edu/">Pierce College</a></td>
-    </tr>
-    <tr>
-        <td>2011</td>
-        <td><a href="https://mt.tacomaschools.org/">Mount Tahoma</a></td>
-    </tr>
-    </tbody>
-    <tfoot>
-</tfoot>
-</table>
-<hr>
-<h3><u>Work Experience</u></h3>
-<table cellspacing="10">
-  <thead>
-    <tr>
-        <th>Dates</th>
-        <th>Work</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>2020 - Present</td>
-        <td>US Army Infantry Team Leader</td>
-    </tr>
-    <tr>
-        <td>2016 - 2019</td>
-        <td>Sales Manager Men's Wearhouse</td>
-    </tr>
-    <tr>
-        <td>2012 - 2016</td>
-        <td>USMC Radio Communications Chief</td>
-    </tr>
-  </tbody>
-</table>
-<hr>
-<h3><u>Skills</u></h3>
-<table cellspacing="10">
-    <tr>
-        <td>Python</td>
-        <td>⭐⭐⭐</td>
-        <td>Windos OS</td>
-        <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-        <td>JavaScript</td>
-        <td>⭐⭐⭐</td>
-        <td>Windows Office 365</td>
-        <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-        <td>HTML5/CSS</td>
-        <td>⭐⭐⭐</td>
-        <td>React/Node.js</td>
-        <td>⭐</td>
-    </tr>
-</table>
-<hr>
-<a href="contact.html">Contact Me</a>
-<a href="hobbies.html">Hobbies</a>
+        <h1>I'm Brandon</h1>
+    
+        <h3>Aspiring Web Developer</h3>
+    
+        <img src="gallery/cloud.png" alt="" class="bottom-cloud">
+    
+        <img src="gallery/mountain.png" class="mountain">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          
+          <h2><u>Hello</u></h2>
+          <img src="gallery/me.jpg" class="me" height="200" alt="">
+          <p class="p-hello">I'm and aspiring Web Developer/Front-End engineer. I'm transitoning from the military after 3 years in the Army and 4 years in the Marines.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2><u>My Skills</u></h2>
+          <div class="skill-row1">
+            <img class="coding" src="gallery/coding.png"  alt="">
+            <h3>Web Development</h3>
+            <p class="code-p">Through the Washington Vets to Tech (WaV2T) program I found a passion for Web Desgin and Development. I enjoy being able to express myself creatively through technology.</p>
+          </div>
+          <div class="skill-row2">
+            <img class="adventurer" src="gallery/html-5.png"  alt="">
+            <h3>Front-End Engineer</h3>
+            <p class="adventure-p">HTML5, CSS, and JavaScript are the languages I'm proficient in and enjoy working with. Currently I have a beginners understanding of these languages but I'm passionate about mastering them.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2><u>Get In Touch</u></h2>
+          <h3>Need a Website built?</h3>
+          <p class="contact-p">Or maybe you're just looking to hire a passionate Front End engineer. Either way, get in contact with me, let's discuss how we can work together!</p>
+          <a class="btn" href="mailto:brandon.coen@outlook.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link1" href="https://www.linkedin.com/in/brandon-coen130/">
+          <img class="linkedin" src="gallery/linkedin.png"></a>
+        <a class="footer-link2" href="https://github.com/coenbg13/Projects.git"><img class="github" src="gallery/github.png"></a>
+        
+        <p>© Brandon Coen</p>
+      </div>
+      
+    
+
+
 
 
 
